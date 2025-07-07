@@ -1,1 +1,70 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIoT Future Trends Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AIoT and Future Technology Trends</h1>
+    </header>
+    
+    <main>
+        <section class="preferences">
+            <h2>User Preferences</h2>
+            <div class="pref-form">
+                <label for="theme">Select Theme:</label>
+                <select id="theme">
+                    <option value="light">Light Mode</option>
+                    <option value="dark">Dark Mode</option>
+                    <option value="neon">Neon Future</option>
+                </select>
+                
+                <label for="animation">Preferred Animation:</label>
+                <select id="animation">
+                    <option value="pulse">Pulse Effect</option>
+                    <option value="float">Floating</option>
+                    <option value="rotate">3D Rotation</option>
+                </select>
+                
+                <button id="savePrefs">Save Preferences</button>
+            </div>
+        </section>
+        
+        <section class="demo-area">
+            <h2>AIoT Technology Showcase</h2>
+            <div class="tech-grid">
+                <div class="tech-card" id="ai-card">
+                    <div class="tech-icon">🤖</div>
+                    <h3>Artificial Intelligence</h3>
+                    <p>Machine learning and neural networks transforming industries</p>
+                    <button class="animate-btn">Animate</button>
+                </div>
+                
+                <div class="tech-card" id="iot-card">
+                    <div class="tech-icon">🌐</div>
+                    <h3>Internet of Things</h3>
+                    <p>Connected devices creating smart environments</p>
+                    <button class="animate-btn">Animate</button>
+                </div>
+                
+                <div class="tech-card" id="blockchain-card">
+                    <div class="tech-icon">⛓️</div>
+                    <h3>Blockchain</h3>
+                    <p>Decentralized systems for secure transactions</p>
+                    <button class="animate-btn">Animate</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Exploring the Future of Technology with AIoT</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
